@@ -1,8 +1,11 @@
-# Where to place and what to do :
+# 🫳 Where to place and what to do ❓ 
 
 ## silent 
-- place in ```/usr/share/sddm/themes```
-- make sure /etc/sddm.conf looks like this :
+- (1) place in ```/usr/share/sddm/themes``` :
+```
+sudo mv ~/Dotfiles/Config/sddm.conf /usr/share/sddm/themes/
+```
+- (2) make sure ```/etc/sddm.conf``` looks like this :
 
 ```
 [Theme]
@@ -13,7 +16,10 @@ InputMethod=qtvirtualkeyboard
 GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
 
 ```
-or place ```sddm.conf``` in ```/etc/```
+or instead of doing [(2)]() , place ```sddm.conf``` in ```/etc/```
+```
+sudo mv ~/Dotfiles/Config/sddm.conf /etc/
+```
 
 ## waybar
 - place in ```~/.config/```
@@ -36,7 +42,6 @@ or place ```sddm.conf``` in ```/etc/```
 ## rofi
 - place in ```~/.config/```
 
-## sddm.conf
-- place in ```/etc/```
-
+## fontconfig
+- place in ```~/.config/```
 
