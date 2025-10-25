@@ -16,11 +16,6 @@ InputMethod=qtvirtualkeyboard
 GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
 
 ```
-or instead of doing [(2)]() , place ```sddm.conf``` in ```/etc/```
-```
-sudo mv ~/Dotfiles/Config/sddm.conf /etc/
-```
-
 ## waybar
 - place in ```~/.config/```
 
