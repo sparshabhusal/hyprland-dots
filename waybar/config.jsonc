@@ -1,0 +1,70 @@
+// ----- waybar config ----- // 
+
+{
+    "layer": "top", 
+    "position": "top",
+    "margin-top": 10,
+    "spacing": 16,
+    "modules-left": [
+	"custom/launcher",    
+        "clock"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "tray",
+	"pulseaudio",
+        "custom/power"
+    ],
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "format-icons": {
+        "urgent": "󰀨 ",
+        "active": " ",
+        "default": " "
+       },
+       "sort-by-number": true,
+       "persistent-workspaces": {
+            "*": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        }
+    },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10,
+	"show-passive-items": true
+    },
+    "clock": {
+        "timezone": "Asia/Kathmandu",
+	"format": "󰥔   {:%I:%M %p}",
+        "format-alt": "  {:%a, %d. %b | 󰥔  %I:%M %p}"    
+    },
+    "pulseaudio": {
+        "format": "{icon}   {volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": " {icon} ",
+        "format-muted": "   Muted",
+        "format-source": " {volume}%",
+        "format-source-muted": "   Muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [" "]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/launcher": {
+        "format" : "    Menu",
+        "on-click" : "rofi -show drun"
+    },
+    "custom/power": {
+        "format": "    Logout",
+	"on-click" : "wlogout &"
+	}
+    }
+}
