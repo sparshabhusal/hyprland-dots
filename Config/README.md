@@ -1,42 +1,61 @@
-# 🫳 Where to place and what to do ❓ 
+# 🫳 Where to place and what to do ❓
 
-## silent 
-- (1) place in ```/usr/share/sddm/themes``` :
-```
-sudo mv ~/Dotfiles/Config/sddm.conf /usr/share/sddm/themes/
-```
-- (2) make sure ```/etc/sddm.conf``` looks like this :
+### silent
+
+> [!NOTE]
+> You need sddm for this. If you use gdm and/or dont want sddm then, you can just skip this !
 
 ```
-[Theme]
-Current=silent
+sudo mv ~/Dotfiles/Config/silent /usr/share/sddm/themes/
+sudo rm /etc/sddm.conf && sudo cp -r ~/Dotfiles/Config/sddm.conf /etc/
+```
+### waybar
 
-[General]
-InputMethod=qtvirtualkeyboard
-GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
+> [!NOTE]
+> If you already have waybar, you can either delete your current waybar and use mine or just skip this !
 
 ```
-## waybar
-- place in ```~/.config/```
+sudo mv ~/Dotfiles/Config/waybar ~/.config/
+```
+### Thunar
 
-## Thunar
-- place in ```~/.config/```
+> [!NOTE]
+> I just edited the command for "Open Terminal Here" to open kitty with the directory . You can skip this !
 
-## hypr
-- place in ```~/.config/```
+```
+sudo mv ~/Dotfiles/Config/Thunar ~/.config/
+```
+### hypr
+```
+sudo mv ~/Dotfiles/Config/hypr ~/.config/
+```
+### hypremoji
+```
+sudo mv ~/Dotfiles/Config/hypremoji ~/.config/
+```
+### fastfetch
+```
+sudo mv ~/Dotfiles/Config/fastfetch ~/.config/
+```
+### kitty
+```
+sudo mv ~/Dotfiles/Config/kitty ~/.config/
+```
+### rofi
+```
+sudo mv ~/Dotfiles/Config/rofi ~/.config/
+```
+### fontconfig
+```
+sudo mv ~/Dotfiles/Config/fontconfig ~/.config/
+```
 
-## hypremoji
-- place in ```~/.config/```
+---
 
-## fastfetch
-- place in ```~/.config/```
+<h1 align=center>
+⚒ Note : This is being developed !
+  
+😊 If you want to copy anything then, your free to !
 
-## kitty
-- place in ```~/.config/```
-
-## rofi
-- place in ```~/.config/```
-
-## fontconfig
-- place in ```~/.config/```
+</h1>
 
