@@ -52,15 +52,33 @@ sudo chmod +x install.sh
 
 
 
-<!-- Development stuff 
+## Development stuff (ignore this)
+
 ```
 sudo mv ~/Dotfiles/Wallpapers ~/Pictures                                  # Move  Wallpapers to ~/Pictures
 
-yay -S python-pywal                                                       # Install pywal
-wal -i ~/Pictures/Wallpapers/nord.png                                     # Generate a pywal colorscheme
+yay -S python-pywal                                                       # Pywal installation
+~/.config/hypr/scripts/startup.sh                                         # Swww and Pywal startup script
 
-sudo mv ~/Dotfiles/Config/silent /usr/share/sddm/themes/                  # put SDDM Theme into the /usr/share/sddm/themes folder
-sudo rm /etc/sddm.conf && sudo cp -r ~/Dotfiles/Config/sddm.conf /etc/    # put the SDDM config file with the theme set as the SDDM theme
+sudo mv ~/Dotfiles/Config/silent /usr/share/sddm/themes/                  # SDDM Theme
+sudo rm /etc/sddm.conf && sudo cp -r ~/Dotfiles/Config/sddm.conf /etc/    # SDDM Config
+
+sudo mv ~/Dotfiles/Config/waybar ~/.config/                               # Waybar Config
+
+sudo mv ~/Dotfiles/Config/Thunar ~/.config/                               # Thunar Config
+
+sudo mv ~/Dotfiles/Config/hypr ~/.config/                                 # Hyprland stuff Config (hyprland.conf, hypridle.conf, hyprlock.conf, scripts folder)
+
+sudo mv ~/Dotfiles/Config/hypremoji ~/.config/                            # Hypremoji Config
+
+sudo mv ~/Dotfiles/Config/fastfetch ~/.config/                            # Fastfetch Config
+
+sudo mv ~/Dotfiles/Config/kitty ~/.config/                                # Kitty Config
+
+sudo mv ~/Dotfiles/Config/rofi ~/.config/                                 # Rofi Config
+
+sudo mv ~/Dotfiles/Config/fontconfig ~/.config/                           # Font Config 
+
 ```
--->
+
 
