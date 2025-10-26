@@ -52,34 +52,47 @@ sudo chmod +x install.sh
 
 
 
-## (please ignore this) Development stuff : 
+### (please ignore this) Development stuff : 
 
 ```
 sudo mv ~/Dotfiles/Wallpapers ~/Pictures                                  # Move  Wallpapers to ~/Pictures
 
-yay -S python-pywal                                                       # Pywal installation
+yay -S python-pywal                                                       # Install pywal
 ~/.config/hypr/scripts/startup.sh                                         # Swww and Pywal startup script
 
+sudo pacman -S sddm                                                       # Install SDDM
+sudo systemctl enable sddm                                                # Enable SDDM
 sudo mv ~/Dotfiles/Config/silent /usr/share/sddm/themes/                  # SDDM Theme
 sudo rm /etc/sddm.conf && sudo cp -r ~/Dotfiles/Config/sddm.conf /etc/    # SDDM Config
 
+yay -S waybar                                                             # Install waybar
 sudo mv ~/Dotfiles/Config/waybar ~/.config/                               # Waybar Config
 
+yay -S thunar                                                             # Install thunar
 sudo mv ~/Dotfiles/Config/Thunar ~/.config/                               # Thunar Config
 
-sudo mv ~/Dotfiles/Config/hypr ~/.config/                                 # Hyprland stuff Config (hyprland.conf, hypridle.conf, hyprlock.conf, scripts folder)
+yay -S hypridle hyprlock                                                  # Install hypridle and hyprlock
+sudo mv ~/Dotfiles/Config/hypr ~/.config/                                 # Hyprland,Hypridle and Hyprlock Config and Scripts
 
+yay -S hypremoji                                                          # Install hypremoji
 sudo mv ~/Dotfiles/Config/hypremoji ~/.config/                            # Hypremoji Config
 
+yay -S fastfetch                                                          # Install fastfetch
 sudo mv ~/Dotfiles/Config/fastfetch ~/.config/                            # Fastfetch Config
 
+yay -S kitty                                                              # Install kitty
 sudo mv ~/Dotfiles/Config/kitty ~/.config/                                # Kitty Config
 
+yay -S rofi                                                               # Install rofi
 sudo mv ~/Dotfiles/Config/rofi ~/.config/                                 # Rofi Config
 
 sudo mv ~/Dotfiles/Config/fontconfig ~/.config/                           # Font Config 
 
-yay -S noto-fonts noto-fonts-emoji                                        # Fix text and emojis in discord
+yay -S noto-fonts noto-fonts-emoji                                        # Install fonts to fix text and emojis in discord
+
+yay -S google-chrome                                                      # Install Google chrome
+yay -S discord                                                            # Install Discord
+yay -S spotify                                                            # Install Spotify
 
 ```
 
