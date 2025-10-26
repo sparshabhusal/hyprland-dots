@@ -30,16 +30,19 @@
 
 # 📦 Installation
 
-> [!CAUTION]
-> ❗ THERE IS NO FILE CALLED ```install.sh``` BECAUSE I AM DEVELOPING THE DOTFILES ❗                           
->  🚫 DO NOT DO THIS ACTION :
+> [!IMPORTANT]
+> Please Install **```timeshift```** and create a snapshot first !
 
+***❗ The script is in development ❗***                                                                                        
+
+<!-- Installation commands
 ```
 git clone https://github.com/spasrhabhusal/Dotfiles.git
 cd Dotfiles
 sudo chmod +x install.sh
 ./install.sh
 ```
+-->
 
 # 📸 Screenshots
 
@@ -51,10 +54,13 @@ sudo chmod +x install.sh
 
 <!-- Development stuff 
 ```
-sudo mv ~/Dotfiles/Wallpapers ~/Pictures       # Move  Wallpapers to ~/Pictures
+sudo mv ~/Dotfiles/Wallpapers ~/Pictures                                  # Move  Wallpapers to ~/Pictures
 
-yay -S python-pywal                            # Install pywal
-wal -i ~/Pictures/Wallpapers/nord.png          # Generate a pywal colorscheme
+yay -S python-pywal                                                       # Install pywal
+wal -i ~/Pictures/Wallpapers/nord.png                                     # Generate a pywal colorscheme
+
+sudo mv ~/Dotfiles/Config/silent /usr/share/sddm/themes/                  # put SDDM Theme into the /usr/share/sddm/themes folder
+sudo rm /etc/sddm.conf && sudo cp -r ~/Dotfiles/Config/sddm.conf /etc/    # put the SDDM config file with the theme set as the SDDM theme
 ```
 -->
 
