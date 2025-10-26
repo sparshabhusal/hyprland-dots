@@ -20,6 +20,8 @@
 - Screenshot Utility : [Hyprshot](https://github.com/Gustash/Hyprshot)
 - Emoji picker : [Hypremoji](https://github.com/albinekb/hyper-emoji)
 - Theming Utility : [Pywal](https://github.com/dylanaraps/pywal)
+- Idle manager : [Hypridle](https://github.com/hyprwm/hypridle)
+- Lockscreen : [Hyprlock](https://github.com/hyprwm/hyprlock)
 
 ### 🎨 Appearance
 - SDDM Theme : [SilentSDDM](https://github.com/uiriansan/SilentSDDM)
