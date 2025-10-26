@@ -52,7 +52,7 @@ sudo chmod +x install.sh
 
 
 
-## Development stuff (ignore this)
+## (please ignore this) Development stuff : 
 
 ```
 sudo mv ~/Dotfiles/Wallpapers ~/Pictures                                  # Move  Wallpapers to ~/Pictures
@@ -78,6 +78,8 @@ sudo mv ~/Dotfiles/Config/kitty ~/.config/                                # Kitt
 sudo mv ~/Dotfiles/Config/rofi ~/.config/                                 # Rofi Config
 
 sudo mv ~/Dotfiles/Config/fontconfig ~/.config/                           # Font Config 
+
+yay -S noto-fonts noto-fonts-emoji                                        # Fix text and emojis in discord
 
 ```
 
