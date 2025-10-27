@@ -15,6 +15,7 @@
     "modules-right": [
         "tray",
 	"pulseaudio",
+	"custom/lock",
         "custom/power"
     ],
     "hyprland/workspaces": {
@@ -42,10 +43,10 @@
     },
     "pulseaudio": {
         "format": "{icon}   {volume}%",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-bluetooth-muted": " {icon} ",
+        "format-bluetooth": "{icon}   {volume}%",
+        "format-bluetooth-muted": "   {icon}   Muted",
         "format-muted": "   Muted",
-        "format-source": " {volume}%",
+        "format-source": "  {volume}%",
         "format-source-muted": "   Muted",
         "format-icons": {
             "headphone": "",
@@ -62,8 +63,12 @@
         "format" : "    Menu",
         "on-click" : "rofi -show drun"
     },
+    "custom/lock": {
+	"format": "   Lock ",
+	"on-click": "hyprlock &"
+    },
     "custom/power": {
-        "format": "    Logout",
+        "format": "   System ",
 	"on-click" : "wlogout &"
 	}
     }
