@@ -1,6 +1,8 @@
 
 <h1 align=center>Hyprland Dotfiles</h1>
-<img width="1921" height="1081" alt="preview" src="https://github.com/user-attachments/assets/e2aa51b1-d630-472b-bba6-dff4671d77c2" />
+
+<img width="1921" height="1081" alt="preview" src="https://github.com/user-attachments/assets/d40f26b2-f591-4596-b9b5-0d2d6147dace" />
+
 
 
 # 📖 Information
