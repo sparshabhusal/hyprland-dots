@@ -1,5 +1,22 @@
 
-<h1 align=center>Hyprland Dotfiles</h1>
+<h1 align=center>💫 Hyprland Dotfiles ⭐</h1>
+
+<h3 align=center>
+  <img src="https://github.com/user-attachments/assets/a2716d8b-6425-48ef-9a2b-986152ea8669" width="425" />
+</h3>
+
+<div align="center">
+<br>
+  <a href="#-installation"><kbd> <br> Installation <br> </kbd></a>&ensp;&ensp;
+  <a href="https://youtube.com/@official_sparsha/"><kbd> <br> Showcase <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/sparshabhusal/Dotfiles/wiki/Keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
+</div><br>
+
+<br>
+
+<h2 align="center">
+✨ Preview ✨ 
+</h2>
 
 <img width="1921" height="1081" alt="preview" src="https://github.com/user-attachments/assets/d40f26b2-f591-4596-b9b5-0d2d6147dace" />
 
@@ -36,6 +53,7 @@
 
 > [!IMPORTANT]
 > Please Install **```timeshift```** and create a snapshot first !
+
 
 ***❗ The script is in development ❗***                                                                                        
 
