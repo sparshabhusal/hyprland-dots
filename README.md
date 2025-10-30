@@ -50,6 +50,7 @@
 - Icon Theme : [WhiteSur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 - Cursor Theme : [Bibata Modern Ice Cursors](https://www.gnome-look.org/p/1197198/)
 - Fonts : [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip)
+- Wallpaper : <kbd> [LINK](https://imgur.com/ZYbnuDd)  </kbd>
 
 # 📦 Installation
 
