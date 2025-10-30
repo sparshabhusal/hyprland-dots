@@ -14,12 +14,14 @@
 
 <br>
 
+<!--
 <h2 align="center">
 ✨ Preview ✨ 
 </h2>
 
-<img width="1921" height="1081" alt="preview" src="https://github.com/user-attachments/assets/d40f26b2-f591-4596-b9b5-0d2d6147dace" />
 
+<img width="1921" height="1081" alt="preview" src="https://github.com/user-attachments/assets/d40f26b2-f591-4596-b9b5-0d2d6147dace" />
+-->
 
 
 # 📖 Information
@@ -66,11 +68,11 @@ sudo chmod +x install.sh
 ```
 -->
 
-# 📸 Screenshots
+# 📸 Screenshot
 
 <img width="1921" height="1081" alt="plain-desktop" src="https://github.com/user-attachments/assets/2c9cc26f-b8f5-4a4e-8a17-ee16dcc20cd1" />
 
-<img width="1921" height="1081" alt="rofi" src="https://github.com/user-attachments/assets/890525ae-2d4e-481a-b9cd-3a2d760e058a" />
+
 
 
 
