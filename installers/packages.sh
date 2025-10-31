@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo " [ Installing necessary packages ] "
+
 # Packages
 sudo pacman -S git curl wget
 
